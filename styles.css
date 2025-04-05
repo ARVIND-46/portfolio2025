@@ -1,0 +1,86 @@
+nav {
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-self:end;
+    padding: 20px;
+    gap:20px;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+
+#contentmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    height: 90hv;
+    margin-top: 20px;
+}
+
+#img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+#text button{
+    padding: 20px;
+    width: 180px;
+    background-color: blue;
+    border-radius: 8px;
+    color: aliceblue;
+}
+#text button:hover{
+    color: black;
+    
+}
+
+#img img {
+    width: 500px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+#about {
+   max-width: 700px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #fdfdfd;
+    box-shadow: 0 8px 24px black;
+    border-radius: 15px;
+    color: #333;
+    transition: transform 0.3s ease-in-out;
+}
+
+#about:hover {
+    transform: scale(1.02);
+}
+
+#about h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #3498db;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+#about p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+#skills {
+    max-width: 800px;
+    margin: 60px auto;
+    
+}
+
